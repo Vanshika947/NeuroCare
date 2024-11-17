@@ -1,9 +1,12 @@
 # NeuroCare
-**Parkinson's Disease Prediction Dashboard**********
+**Parkinson's Disease Prediction Dashboard**
+
 This project is a Streamlit-based web application that predicts the likelihood of Parkinson's disease using machine learning models. The dashboard is interactive and allows users to explore feature correlations, visualize data distributions, select features, and choose a machine learning model for prediction.
 
-Features
-🌟 Interactive Dashboard
+**Features**
+
+🌟** Interactive Dashboard**
+
 Feature Selection: Choose specific features to include in the prediction model.
 Model Selection: Select between Support Vector Machine (SVM) and Random Forest for prediction.
 Dynamic Visualizations:
@@ -65,7 +68,7 @@ View how selected features correlate with the target variable via the heatmap.
 Model Selection:
 
 Select a machine learning model: SVM or Random Forest.
-Make a Prediction:
+Make a Prediction.
 
 Input values for the selected features.
 Click the "Predict" button to get the prediction result.
