@@ -5,26 +5,38 @@ This project is a Streamlit-based web application that predicts the likelihood o
 
 **Features**
 
-🌟** Interactive Dashboard**
+🌟 Interactive Dashboard
 
 Feature Selection: Choose specific features to include in the prediction model.
-Model Selection: Select between Support Vector Machine (SVM) and Random Forest for prediction.
-Dynamic Visualizations:
-Correlation Heatmap: Understand feature relationships with the target variable (status).
-Data Distribution Plots: View distributions of selected features, categorized by the target variable.
-🧪 Prediction Capabilities
-Input custom values for selected features.
-Predict whether the person has Parkinson's disease based on the input.
-Display prediction results dynamically.
-⚙️ Model Performance
-Training and test accuracy are shown to help understand model performance.
-Dataset
-The application uses the Parkinson’s Disease Dataset, which contains biomedical voice measurements from people with Parkinson's disease and healthy individuals. Key details:
 
-status is the target variable (1 for Parkinson's disease, 0 otherwise).
+Model Selection: Select between Support Vector Machine (SVM) and Random Forest for prediction.
+
+Dynamic Visualizations:
+
+Correlation Heatmap: Understand feature relationships with the target variable (status).
+
+Data Distribution Plots: View distributions of selected features, categorized by the target variable.
+
+🧪 Prediction Capabilities
+
+Input custom values for selected features.
+
+Predict whether the person has Parkinson's disease based on the input.
+
+Display prediction results dynamically.
+
+⚙️ Model Performance
+
+Training and test accuracy are shown to help understand model performance.
+
+**Dataset**
+
+The application uses the Parkinson’s Disease Dataset, which contains biomedical voice measurements from people with Parkinson's disease and healthy individuals. 
+
+Key details: status is the target variable (1 for Parkinson's disease, 0 otherwise).
 Other features are voice-related measurements such as jitter, shimmer, and others.
-Installation and Setup
-Prerequisites
+**Installation and Setup
+Prerequisites**
 Ensure you have Python 3.8+ installed along with the following libraries:
 
 streamlit
@@ -43,8 +55,11 @@ cd parkinsons-disease-dashboard
 Install dependencies:
 
 bash
+
 Copy code
+
 pip install -r requirements.txt
+
 Run the app:
 
 bash
@@ -55,6 +70,7 @@ Open the link provided by Streamlit in your browser.
 File Structure
 bash
 Copy code
+
 parkinsons-disease-dashboard/
 ├── parkinsons_dashboard.py    # Main Streamlit app script
 ├── parkinsons_datset.csv      # Parkinson’s dataset
